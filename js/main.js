@@ -10,19 +10,22 @@ Consigli del giorno:
 2. proviamo ad immaginare le operazioni che vogliamo far svolgere al nostro programma così come lo faremmo "a mano"
 */
 
-//! PREPARAZIONE
+//*Faccio un ciclo for per stampare ogni numero
 
-//! RACCOLTA DATI
-//* stampiamo i numeri da 1 a 100
+for(let i = 1; i < 100; i++){
 
-//! ELABORAZIONE DATI
-//* PER OGNI numero da 1 a 100
-    //*SE il numero è multiplo di 3
-        //* ALLORA preparo il messaggio ("Fizz") 
-    //*SE il numero è multiplo di 5 
-        //* ALLORA preparo il messaggio ("Buzz")
-    //*SE il numero è multiplo di 3 AND il numero è multiplo di 5
-        //* ALLORA preparo il messaggio ("FizzBuzz")
+if(i % 3 === 0 && i % 5 === 0){   //*controllo se il numero è divisibile per 3 e per 5 (lo metto all'inizio perchè senno non controlla entrambe le condizioni)
+    console.log("FizzBuzz")      //* se lo è stampo 'FizzBuzz'
+}
+else if(i % 3 === 0){            //*controllo se il numero è divisibile per 3
+    console.log("Fizz")          //* se lo è stampo 'Fizz'
+}
+else if(i % 5 === 0){            //*controllo se il numero è divisibile per 5
+    console.log("Buzz")          //* se lo è stampo 'Buzz'
+}
 
-//! OUTPUT
-//* STAMPO il messaggio
+else{
+    console.log(i)               //* se non è nessuno dei precedenti lascio che stampi il numero normale
+}
+}
+
