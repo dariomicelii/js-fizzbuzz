@@ -9,3 +9,20 @@ Consigli del giorno:
 1. scriviamo sempre prima dei commenti in italiano per capire cosa vogliamo fare
 2. proviamo ad immaginare le operazioni che vogliamo far svolgere al nostro programma così come lo faremmo "a mano"
 */
+
+//! PREPARAZIONE
+
+//! RACCOLTA DATI
+//* stampiamo i numeri da 1 a 100
+
+//! ELABORAZIONE DATI
+//* PER OGNI numero da 1 a 100
+    //*SE il numero è multiplo di 3
+        //* ALLORA preparo il messaggio ("Fizz") 
+    //*SE il numero è multiplo di 5 
+        //* ALLORA preparo il messaggio ("Buzz")
+    //*SE il numero è multiplo di 3 AND il numero è multiplo di 5
+        //* ALLORA preparo il messaggio ("FizzBuzz")
+
+//! OUTPUT
+//* STAMPO il messaggio
